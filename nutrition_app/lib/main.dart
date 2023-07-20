@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Cal-urry', // CHANGE PLEASE
+      title: 'Calurry', // CHANGE PLEASE
       debugShowCheckedModeBanner: false,
       home: NavBar(),
     );
