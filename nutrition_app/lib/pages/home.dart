@@ -142,6 +142,7 @@ class _HomePageState extends State<HomePage> {
                                                 appState.addedFoods.clear();
                                                 appState.totalCalories = 0;
                                                 CaloricGoal.inputsMap.clear();
+                                                goalState.caloricIntakeBMR = 0;
                                               }),
                                           child: Text('RESET FOOD')),
                                       ElevatedButton(

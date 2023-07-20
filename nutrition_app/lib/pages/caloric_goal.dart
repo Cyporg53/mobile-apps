@@ -31,7 +31,7 @@ class CaloricGoal extends ChangeNotifier {
           (12.7 * (12 * heightFeet + heightInches)) -
           (6.8 * age);
     } else {
-      caloricIntakeBMR = 655 +
+      caloricIntakeBMR = 65 +
           (4.35 * weight) +
           (4.7 * (12 * heightFeet + heightInches)) -
           (4.7 * age);
